@@ -2,12 +2,12 @@
 self.addEventListener('push', function(event) {
     console.log('Received a push message', event);
 
-self.addEventListener('install', (event) => {
+//self.addEventListener('install', (event) => {
 
     var title = 'Registration is now open';
     var body = 'We have received a push message.';
     var icon = 'https://www.blinn.edu/_files/images/ico/favicon.ico';
-    var tag = 'tag-16';
+    var tag = 'tag-17';
     var data = {
     doge: {
         wow: 'such amaze notification data'
@@ -25,7 +25,7 @@ self.addEventListener('install', (event) => {
     })
     );
 
-}); //install
+//}); //install
 
 
 });
