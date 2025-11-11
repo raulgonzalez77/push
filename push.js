@@ -14,11 +14,11 @@ webpush.setVapidDetails(
 
 // This is your PushSubscription object from the browser
 const pushSubscription = {
-  endpoint: "https://fcm.googleapis.com/fcm/send/fWuKUEPcD8U:APA91bF360nY6OyJgd0EfgdnJJgsKoof8hysVECCWh8cyiXb03SJEPGc0hX0dWGX4o27UXunebklcsGsatS5-f3I_Dmy13Ed7RkHK5DubA5PUaUt34DEGkvfKCfaBis-NStMkPH_DE30",
+  endpoint: "https://fcm.googleapis.com/fcm/send/dpR2HzWMhno:APA91bGH95fN3vVic_nKHjG0vvof1U6bHWPk-RM--Wx5hQv7n3FwxDdx8IibvvSVcIkE0bVj7oQDwDYFZ8L7mq0_NUZZUOipH-PbHjsCIEpzVPoyFuemxK9P1J270JyRH4B-jGRtEusi",
   expirationTime: null,
   keys: {
-    p256dh: "BAERVGskrZQdIDXIzTVOm8zuwylglCwZ_bF7tmKm10w9g36z3_yCCbjeXcmhGFvf0E6wyGge1CEgIIuVXml5NGY",
-    auth: "48b8uYCuAuJvtr6e-CvSUg"
+    p256dh: "BP8vm4B2bwFgtjPtTctrUULqRPzxYh2yoOKPLkcTKjWDwSUl9HrEEeifXQqOVbQGU76RgoXDEVwW-tlaj1PQvLM",
+    auth: "WkB2fsK5mPGrbRzRYYDWYw"
   }
 };
 
